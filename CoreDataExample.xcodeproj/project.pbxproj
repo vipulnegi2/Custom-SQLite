@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12D62672A9FABCD0056109B /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10D47C32A9FAB1F000CEC6B /* GRDB.framework */; };
+		B12D62682A9FABCD0056109B /* GRDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B10D47C32A9FAB1F000CEC6B /* GRDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B143B50E2A8A7F5300B8834E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B50D2A8A7F5300B8834E /* AppDelegate.swift */; };
 		B143B5102A8A7F5300B8834E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B50F2A8A7F5300B8834E /* SceneDelegate.swift */; };
 		B143B5122A8A7F5300B8834E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B5112A8A7F5300B8834E /* ViewController.swift */; };
@@ -39,6 +41,13 @@
 			remoteGlobalIDString = F3BA809B1CFB2F6F003DC1BA;
 			remoteInfo = GRDBCustomTests;
 		};
+		B12D62632A9FABC60056109B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BA80591CFB2BB2003DC1BA;
+			remoteInfo = GRDBCustom;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B12D62682A9FABCD0056109B /* GRDB.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12D62672A9FABCD0056109B /* GRDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +193,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B12D62642A9FABC60056109B /* PBXTargetDependency */,
 			);
 			name = CoreDataExample;
 			packageProductDependencies = (
@@ -283,6 +295,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B12D62642A9FABC60056109B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRDBCustom;
+			targetProxy = B12D62632A9FABC60056109B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B143B5132A8A7F5300B8834E /* Main.storyboard */ = {

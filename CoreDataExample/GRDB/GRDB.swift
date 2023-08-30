@@ -33,7 +33,7 @@ class GRDBHelper {
   }
   
   func createTable() {
-    let createTableString = "CREATE VIRTUAL TABLE IF NOT EXISTS pdf7 USING spellfix1;"//(id TEXT PRIMARY KEY,number TEXT,name TEXT,uhid TEXT,profile TEXT,formData TEXT,archived TEXT,link TEXT,created_at TEXT,updated_at TEXT,visits TEXT,followup TEXT,last_visit TEXT);"
+    let createTableString = "CREATE VIRTUAL TABLE IF NOT EXISTS pdf4 USING spellfix1;"//(id TEXT PRIMARY KEY,number TEXT,name TEXT,uhid TEXT,profile TEXT,formData TEXT,archived TEXT,link TEXT,created_at TEXT,updated_at TEXT,visits TEXT,followup TEXT,last_visit TEXT);"
     var createTableStatement: OpaquePointer? = nil
     if sqlite3_prepare_v2(db, createTableString, -1, &createTableStatement, nil) == SQLITE_OK {
       let val = sqlite3_step(createTableStatement)
