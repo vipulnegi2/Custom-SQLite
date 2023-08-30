@@ -11,21 +11,78 @@
 		B143B5102A8A7F5300B8834E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B50F2A8A7F5300B8834E /* SceneDelegate.swift */; };
 		B143B5122A8A7F5300B8834E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B5112A8A7F5300B8834E /* ViewController.swift */; };
 		B143B5152A8A7F5300B8834E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B143B5132A8A7F5300B8834E /* Main.storyboard */; };
-		B143B5182A8A7F5300B8834E /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B143B5162A8A7F5300B8834E /* CoreDataExample.xcdatamodeld */; };
 		B143B51A2A8A7F5400B8834E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B143B5192A8A7F5400B8834E /* Assets.xcassets */; };
 		B143B51D2A8A7F5400B8834E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B143B51B2A8A7F5400B8834E /* LaunchScreen.storyboard */; };
+		B143B52C2A8CA94C00B8834E /* PatientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B52B2A8CA94C00B8834E /* PatientModel.swift */; };
+		B143B5312A8E0D7200B8834E /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B5302A8E0D7200B8834E /* EncodableExtension.swift */; };
+		B143B53C2A8E44D400B8834E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B53B2A8E44D400B8834E /* DateExtension.swift */; };
+		B143B5552A8E691200B8834E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143B5542A8E691200B8834E /* NetworkManager.swift */; };
+		B18B09A02A94B43B002C7A6E /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18B099F2A94B43B002C7A6E /* ArrayExtension.swift */; };
+		B18B09A42A94F2DF002C7A6E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18B09A32A94F2DF002C7A6E /* UIViewControllerExtension.swift */; };
+		B191CCBA2A9656F400195836 /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191CCB82A9656F400195836 /* PatientTableViewCell.swift */; };
+		B191CCBB2A9656F400195836 /* PatientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B191CCB92A9656F400195836 /* PatientTableViewCell.xib */; };
+		B1CFA2542A976CE000EF4582 /* GRDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFA2532A976CE000EF4582 /* GRDB.swift */; };
+		B1D3753E2A9FA96300103183 /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D375392A9FA82E00103183 /* GRDB.framework */; };
+		B1D3753F2A9FA96300103183 /* GRDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1D375392A9FA82E00103183 /* GRDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B1D375382A9FA82E00103183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3BA805A1CFB2BB2003DC1BA;
+			remoteInfo = GRDBCustom;
+		};
+		B1D3753A2A9FA82E00103183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3BA809B1CFB2F6F003DC1BA;
+			remoteInfo = GRDBCustomTests;
+		};
+		B1D3753C2A9FA95B00103183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BA80591CFB2BB2003DC1BA;
+			remoteInfo = GRDBCustom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B16A28152A9644040082B730 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1D3753F2A9FA96300103183 /* GRDB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GRDBCustom.xcodeproj; path = ../../CoreDataExample/GRDB.swift/GRDBCustom.xcodeproj; sourceTree = "<group>"; };
 		B143B50A2A8A7F5300B8834E /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B143B50D2A8A7F5300B8834E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B143B50F2A8A7F5300B8834E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B143B5112A8A7F5300B8834E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B143B5142A8A7F5300B8834E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B143B5172A8A7F5300B8834E /* CoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample.xcdatamodel; sourceTree = "<group>"; };
 		B143B5192A8A7F5400B8834E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B143B51C2A8A7F5400B8834E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B143B51E2A8A7F5400B8834E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B143B52B2A8CA94C00B8834E /* PatientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientModel.swift; sourceTree = "<group>"; };
+		B143B5302A8E0D7200B8834E /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
+		B143B53B2A8E44D400B8834E /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		B143B5542A8E691200B8834E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B18B099F2A94B43B002C7A6E /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		B18B09A32A94F2DF002C7A6E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		B191CCB82A9656F400195836 /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		B191CCB92A9656F400195836 /* PatientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientTableViewCell.xib; sourceTree = "<group>"; };
+		B1CFA2532A976CE000EF4582 /* GRDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D3753E2A9FA96300103183 /* GRDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +102,7 @@
 			children = (
 				B143B50C2A8A7F5300B8834E /* CoreDataExample */,
 				B143B50B2A8A7F5300B8834E /* Products */,
+				B15837802A97631A00004677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +117,65 @@
 		B143B50C2A8A7F5300B8834E /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */,
+				B1CFA2522A976CD100EF4582 /* GRDB */,
+				B143B5532A8E690700B8834E /* Network */,
+				B143B53A2A8E44BE00B8834E /* Extensions */,
 				B143B50D2A8A7F5300B8834E /* AppDelegate.swift */,
 				B143B50F2A8A7F5300B8834E /* SceneDelegate.swift */,
 				B143B5112A8A7F5300B8834E /* ViewController.swift */,
+				B143B52B2A8CA94C00B8834E /* PatientModel.swift */,
 				B143B5132A8A7F5300B8834E /* Main.storyboard */,
 				B143B5192A8A7F5400B8834E /* Assets.xcassets */,
 				B143B51B2A8A7F5400B8834E /* LaunchScreen.storyboard */,
 				B143B51E2A8A7F5400B8834E /* Info.plist */,
-				B143B5162A8A7F5300B8834E /* CoreDataExample.xcdatamodeld */,
+				B191CCB82A9656F400195836 /* PatientTableViewCell.swift */,
+				B191CCB92A9656F400195836 /* PatientTableViewCell.xib */,
 			);
 			path = CoreDataExample;
+			sourceTree = "<group>";
+		};
+		B143B53A2A8E44BE00B8834E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B143B5302A8E0D7200B8834E /* EncodableExtension.swift */,
+				B143B53B2A8E44D400B8834E /* DateExtension.swift */,
+				B18B099F2A94B43B002C7A6E /* ArrayExtension.swift */,
+				B18B09A32A94F2DF002C7A6E /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B143B5532A8E690700B8834E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B143B5542A8E691200B8834E /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B15837802A97631A00004677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1CFA2522A976CD100EF4582 /* GRDB */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFA2532A976CE000EF4582 /* GRDB.swift */,
+			);
+			path = GRDB;
+			sourceTree = "<group>";
+		};
+		B1D375342A9FA82E00103183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D375392A9FA82E00103183 /* GRDB.framework */,
+				B1D3753B2A9FA82E00103183 /* GRDBCustomTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,12 +188,16 @@
 				B143B5062A8A7F5300B8834E /* Sources */,
 				B143B5072A8A7F5300B8834E /* Frameworks */,
 				B143B5082A8A7F5300B8834E /* Resources */,
+				B16A28152A9644040082B730 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B1D3753D2A9FA95B00103183 /* PBXTargetDependency */,
 			);
 			name = CoreDataExample;
+			packageProductDependencies = (
+			);
 			productName = CoreDataExample;
 			productReference = B143B50A2A8A7F5300B8834E /* CoreDataExample.app */;
 			productType = "com.apple.product-type.application";
@@ -102,6 +214,7 @@
 				TargetAttributes = {
 					B143B5092A8A7F5300B8834E = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -114,8 +227,16 @@
 				Base,
 			);
 			mainGroup = B143B5012A8A7F5300B8834E;
+			packageReferences = (
+			);
 			productRefGroup = B143B50B2A8A7F5300B8834E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1D375342A9FA82E00103183 /* Products */;
+					ProjectRef = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B143B5092A8A7F5300B8834E /* CoreDataExample */,
@@ -123,12 +244,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B1D375392A9FA82E00103183 /* GRDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GRDB.framework;
+			remoteRef = B1D375382A9FA82E00103183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1D3753B2A9FA82E00103183 /* GRDBCustomTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GRDBCustomTests.xctest;
+			remoteRef = B1D3753A2A9FA82E00103183 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		B143B5082A8A7F5300B8834E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B143B51D2A8A7F5400B8834E /* LaunchScreen.storyboard in Resources */,
+				B191CCBB2A9656F400195836 /* PatientTableViewCell.xib in Resources */,
 				B143B51A2A8A7F5400B8834E /* Assets.xcassets in Resources */,
 				B143B5152A8A7F5300B8834E /* Main.storyboard in Resources */,
 			);
@@ -142,13 +281,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B143B5122A8A7F5300B8834E /* ViewController.swift in Sources */,
+				B143B52C2A8CA94C00B8834E /* PatientModel.swift in Sources */,
+				B18B09A42A94F2DF002C7A6E /* UIViewControllerExtension.swift in Sources */,
 				B143B50E2A8A7F5300B8834E /* AppDelegate.swift in Sources */,
+				B1CFA2542A976CE000EF4582 /* GRDB.swift in Sources */,
+				B143B53C2A8E44D400B8834E /* DateExtension.swift in Sources */,
 				B143B5102A8A7F5300B8834E /* SceneDelegate.swift in Sources */,
-				B143B5182A8A7F5300B8834E /* CoreDataExample.xcdatamodeld in Sources */,
+				B18B09A02A94B43B002C7A6E /* ArrayExtension.swift in Sources */,
+				B143B5552A8E691200B8834E /* NetworkManager.swift in Sources */,
+				B191CCBA2A9656F400195836 /* PatientTableViewCell.swift in Sources */,
+				B143B5312A8E0D7200B8834E /* EncodableExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D3753D2A9FA95B00103183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRDBCustom;
+			targetProxy = B1D3753C2A9FA95B00103183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B143B5132A8A7F5300B8834E /* Main.storyboard */ = {
@@ -289,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YDS549XWRN;
@@ -299,14 +454,22 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreDataExample/GRDB",
+					"$(PROJECT_DIR)",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoreDataExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbi.EkaCarePencilSaga.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YDS549XWRN;
@@ -327,14 +491,21 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreDataExample/GRDB",
+					"$(PROJECT_DIR)",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.CoreDataExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbi.EkaCarePencilSaga.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,19 +533,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B143B5162A8A7F5300B8834E /* CoreDataExample.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B143B5172A8A7F5300B8834E /* CoreDataExample.xcdatamodel */,
-			);
-			currentVersion = B143B5172A8A7F5300B8834E /* CoreDataExample.xcdatamodel */;
-			path = CoreDataExample.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B143B5022A8A7F5300B8834E /* Project object */;
 }

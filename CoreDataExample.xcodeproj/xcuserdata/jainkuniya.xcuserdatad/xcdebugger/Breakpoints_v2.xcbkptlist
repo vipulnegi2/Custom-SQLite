@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3BEC7D64-96EE-4AF5-98D7-07D313A3AF9C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "914CD620-254E-4922-9FAC-F61DB6D62C64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134016"
+            endingLineNumber = "134016"
+            landmarkName = "winRead(id, pBuf, amt, offset)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B31104C-5DDD-4E7F-90BF-165DF9FF483D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134017"
+            endingLineNumber = "134017"
+            landmarkName = "winRead(id, pBuf, amt, offset)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E523AAD-C0BB-469E-AA5A-740CEB6C311F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127053"
+            endingLineNumber = "127053"
+            landmarkName = "winRead(id, pBuf, amt, offset)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6E523AAD-C0BB-469E-AA5A-740CEB6C311F - 8f5a195132b07c5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loadExt"
+                  moduleName = "GRDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainkuniya/Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127053"
+                  endingLineNumber = "127053"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6E523AAD-C0BB-469E-AA5A-740CEB6C311F - 8f5a195132b07c5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loadExt"
+                  moduleName = "GRDB"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jainkuniya/Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127053"
+                  endingLineNumber = "127053"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5801AB9E-B916-4C5B-982D-C79FB5F4758B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134141"
+            endingLineNumber = "134141"
+            landmarkName = "winRead(id, pBuf, amt, offset)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70A7A32F-3FE7-42BD-A156-259E5AA05651"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133982"
+            endingLineNumber = "133982"
+            landmarkName = "winRead(id, pBuf, amt, offset)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A8E3863-4D25-4E9C-900E-625D529AD39C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CoreDataExample-drrquksepyynzubygdrfjupquqcy/Build/Products/sqlite/sqlite3.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43799"
+            endingLineNumber = "43799"
+            landmarkName = "unixDlError(NotUsed, nBuf, zBufOut)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
