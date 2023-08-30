@@ -22,31 +22,22 @@
 		B191CCBA2A9656F400195836 /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B191CCB82A9656F400195836 /* PatientTableViewCell.swift */; };
 		B191CCBB2A9656F400195836 /* PatientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B191CCB92A9656F400195836 /* PatientTableViewCell.xib */; };
 		B1CFA2542A976CE000EF4582 /* GRDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFA2532A976CE000EF4582 /* GRDB.swift */; };
-		B1D3753E2A9FA96300103183 /* GRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D375392A9FA82E00103183 /* GRDB.framework */; };
-		B1D3753F2A9FA96300103183 /* GRDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1D375392A9FA82E00103183 /* GRDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B1D375382A9FA82E00103183 /* PBXContainerItemProxy */ = {
+		B10D47C22A9FAB1F000CEC6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F3BA805A1CFB2BB2003DC1BA;
 			remoteInfo = GRDBCustom;
 		};
-		B1D3753A2A9FA82E00103183 /* PBXContainerItemProxy */ = {
+		B10D47C42A9FAB1F000CEC6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F3BA809B1CFB2F6F003DC1BA;
 			remoteInfo = GRDBCustomTests;
-		};
-		B1D3753C2A9FA95B00103183 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F3BA80591CFB2BB2003DC1BA;
-			remoteInfo = GRDBCustom;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B1D3753F2A9FA96300103183 /* GRDB.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GRDBCustom.xcodeproj; path = ../../CoreDataExample/GRDB.swift/GRDBCustom.xcodeproj; sourceTree = "<group>"; };
+		B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GRDBCustom.xcodeproj; path = ../../GRDB.swift/GRDBCustom.xcodeproj; sourceTree = "<group>"; };
 		B143B50A2A8A7F5300B8834E /* CoreDataExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B143B50D2A8A7F5300B8834E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B143B50F2A8A7F5300B8834E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,13 +80,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D3753E2A9FA96300103183 /* GRDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B10D47BE2A9FAB1F000CEC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10D47C32A9FAB1F000CEC6B /* GRDB.framework */,
+				B10D47C52A9FAB1F000CEC6B /* GRDBCustomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B143B5012A8A7F5300B8834E = {
 			isa = PBXGroup;
 			children = (
@@ -169,15 +167,6 @@
 			path = GRDB;
 			sourceTree = "<group>";
 		};
-		B1D375342A9FA82E00103183 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B1D375392A9FA82E00103183 /* GRDB.framework */,
-				B1D3753B2A9FA82E00103183 /* GRDBCustomTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,7 +182,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B1D3753D2A9FA95B00103183 /* PBXTargetDependency */,
 			);
 			name = CoreDataExample;
 			packageProductDependencies = (
@@ -233,7 +221,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B1D375342A9FA82E00103183 /* Products */;
+					ProductGroup = B10D47BE2A9FAB1F000CEC6B /* Products */;
 					ProjectRef = B11F86F52A9FA1F800910627 /* GRDBCustom.xcodeproj */;
 				},
 			);
@@ -245,18 +233,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B1D375392A9FA82E00103183 /* GRDB.framework */ = {
+		B10D47C32A9FAB1F000CEC6B /* GRDB.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = GRDB.framework;
-			remoteRef = B1D375382A9FA82E00103183 /* PBXContainerItemProxy */;
+			remoteRef = B10D47C22A9FAB1F000CEC6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B1D3753B2A9FA82E00103183 /* GRDBCustomTests.xctest */ = {
+		B10D47C52A9FAB1F000CEC6B /* GRDBCustomTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = GRDBCustomTests.xctest;
-			remoteRef = B1D3753A2A9FA82E00103183 /* PBXContainerItemProxy */;
+			remoteRef = B10D47C42A9FAB1F000CEC6B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -295,14 +283,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B1D3753D2A9FA95B00103183 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GRDBCustom;
-			targetProxy = B1D3753C2A9FA95B00103183 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B143B5132A8A7F5300B8834E /* Main.storyboard */ = {
